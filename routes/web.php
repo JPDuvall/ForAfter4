@@ -17,10 +17,10 @@
 });*/
 
 /* Dashboard routes */
-Route::get('/dashboard', 'DashboardController@index');
+Route::get('/dashboard', 'DashboardController@index')->name('dashboard-home')->middleware('auth');
 Route::get('/dashboard/login', 'DashboardController@login');
-Route::get('/dashboard/users', 'DashboardController@users');
-Route::get('/dashboard/givers', 'DashboardController@givers');
+Route::get('/dashboard/users', 'DashboardController@users')->name('dashboard-users')->middleware('auth');
+Route::get('/dashboard/givers', 'DashboardController@givers')->name('dashboard-givers')->middleware('auth');
 // Route::get('/dashboard/categories', 'DashboardController@categories');
 // Route::post('/dashboard/categories/save', 'DashboardController@save_category');
 
