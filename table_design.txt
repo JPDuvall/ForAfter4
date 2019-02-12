@@ -1,0 +1,8 @@
+timetable >
+- id
+- day
+- from
+- to
+- session_length
+- giver_id
+

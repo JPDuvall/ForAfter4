@@ -1,0 +1,19 @@
+Done list:
+1. Profile Picture
+2. Adding image to listing (edit listing), any field that gets edited
+3. Add Watchlist functionality and Tab Styling
+5. Hide Family Feed
+8. Fix Home Page Bug (Safari issue) - I've applied a fix for this, but have no way of testing/verifying
+9. Styling Google API drop down
+11. Featured Boxes
+12. Create Activities
+13. Background image to bottom section of home page
+16. Push Explore page content down to fix drop down menu bug
+18. Style explore page cards same as home page
+19. All searches must be through google API
+20. Tagged activities (all of them) must be populated in the category filter in explore
+21. Add google API to where you are looking to Explore filters
+23. Hide "All" tab in explore page filters
+26. Make watch button functional on activity listing page
+29.Fix if no children on platform, trying to book bug
+30. Select child styling for booking activity
